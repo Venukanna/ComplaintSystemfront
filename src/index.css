@@ -1,0 +1,81 @@
+/* ---------- Global Reset ---------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- Root Variables ---------- */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #f5f7fb;
+  color: #213547;
+}
+
+/* ---------- Body ---------- */
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f5f7fb;
+}
+
+/* ---------- Common Elements ---------- */
+a {
+  font-weight: 500;
+  color: #4e73df;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2e59d9;
+}
+
+h1, h2, h3, h4 {
+  color: #333;
+}
+
+button {
+  border-radius: 6px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:focus {
+  outline: none;
+}
+
+input, textarea {
+  font-family: inherit;
+}
+
+/* ---------- Scrollbar ---------- */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}

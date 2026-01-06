@@ -1,0 +1,56 @@
+.register-container {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #4e73df, #1cc88a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.register-box {
+  background: white;
+  width: 330px;
+  max-width: 100%;
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.register-title {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.register-box input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.register-box button {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background: #1cc88a;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #17a673;
+}
+
+/* 📱 Mobile */
+@media (max-width: 480px) {
+  .register-box {
+    padding: 25px 20px;
+  }
+}

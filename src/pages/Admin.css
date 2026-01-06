@@ -1,0 +1,66 @@
+.admin-container {
+  min-height: 100vh;
+  background: #f5f7fb;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.admin-box {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.admin-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.admin-search {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.admin-search input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.admin-search button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #4e73df;
+  color: white;
+  cursor: pointer;
+}
+
+.admin-search button:hover {
+  background: #2e59d9;
+}
+
+.complaint-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 12px;
+  background: #fafafa;
+}
+
+.complaint-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .admin-search {
+    flex-direction: column;
+  }
+}
